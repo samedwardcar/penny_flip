@@ -1,4 +1,49 @@
 * {
-    outline: 1px solid red;
-    
+   
+}
+
+/*body background is a gradien and colors are being styled*/
+body{
+    background-image: linear-gradient(to bottom left, rgba(255,0,0,0), orange);
+}
+
+/*all content in first DIV or BODY needs to be styled.
+
+
+/*second DIV, paren of button
+/*  */
+.container {
+    background: white;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+table, th,td {
+    border: solid orange;
+}
+
+#buttons {
+    border: 1px solid black;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.result {
+    color: orange;
+}
+button {
+    border-radius: 25px;
+    font-size: 25px;
+}
+#flip-btn{
+    background-image: linear-gradient(to bottom left, white, lightblue);
+}
+#clear-btn{
+    background-image: linear-gradient(to bottom left,rgba(255,0,0,0), orange);
 }
